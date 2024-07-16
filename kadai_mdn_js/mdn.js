@@ -3,7 +3,7 @@ let today = new Date();
 
 // 年、月、日情報を取得し変数に代入
 let year = today.getFullYear();
-let month = today.getMonth();
+let month = today.getMonth() + 1; // 0始まり
 let date = today.getDate();
 
 // コンソールに出力
